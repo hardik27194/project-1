@@ -1,0 +1,66 @@
+
+/* Class = "IBUIButton"; normalTitle = "前进"; ObjectID = "2CZ-Bc-aBT"; */
+"2CZ-Bc-aBT.normalTitle" = "前进";
+
+/* Class = "IBUIButton"; normalTitle = "登入"; ObjectID = "8rM-k8-fHF"; */
+"8rM-k8-fHF.normalTitle" = "登入";
+
+/* Class = "IBUIButton"; normalTitle = "后退"; ObjectID = "9gP-N7-mOd"; */
+"9gP-N7-mOd.normalTitle" = "后退";
+
+/* Class = "IBUILabel"; text = "当前声望:"; ObjectID = "ES9-EL-GU2"; */
+"ES9-EL-GU2.text" = "当前声望:";
+
+/* Class = "IBUILabel"; text = "兑换数量"; ObjectID = "Hch-Ty-fdQ"; */
+"Hch-Ty-fdQ.text" = "兑换数量";
+
+/* Class = "IBUIButton"; normalTitle = "刷新Home"; ObjectID = "IF0-4U-aTr"; */
+"IF0-4U-aTr.normalTitle" = "刷新Home";
+
+/* Class = "IBUIButton"; normalTitle = "刷新LV"; ObjectID = "Ivn-hZ-8Jz"; */
+"Ivn-hZ-8Jz.normalTitle" = "刷新LV";
+
+/* Class = "IBUITextField"; text = "13979185509"; ObjectID = "KyY-tb-cxS"; */
+"KyY-tb-cxS.text" = "13979185509";
+
+/* Class = "IBUILabel"; text = "验证码："; ObjectID = "L2U-1x-EWT"; */
+"L2U-1x-EWT.text" = "验证码：";
+
+/* Class = "IBUITabBarItem"; title = "WebView版"; ObjectID = "RKc-dh-PQi"; */
+"RKc-dh-PQi.title" = "WebView版";
+
+/* Class = "IBUITextField"; text = "qq284278720"; ObjectID = "XqO-ki-aNB"; */
+"XqO-ki-aNB.text" = "qq284278720";
+
+/* Class = "IBUITextField"; text = "50"; ObjectID = "YdO-lH-vqF"; */
+"YdO-lH-vqF.text" = "50";
+
+/* Class = "IBUIButton"; normalTitle = "刷新"; ObjectID = "arg-RJ-4mE"; */
+"arg-RJ-4mE.normalTitle" = "刷新";
+
+/* Class = "IBUILabel"; text = "用户名:"; ObjectID = "dxQ-cz-rVP"; */
+"dxQ-cz-rVP.text" = "用户名:";
+
+/* Class = "IBUILabel"; text = "消耗数量"; ObjectID = "eG9-3T-YuF"; */
+"eG9-3T-YuF.text" = "消耗数量";
+
+/* Class = "IBUILabel"; text = "兑换等级"; ObjectID = "fNs-cK-TMb"; */
+"fNs-cK-TMb.text" = "兑换等级";
+
+/* Class = "IBUIButton"; normalTitle = "清除请求"; ObjectID = "gXr-ie-eFW"; */
+"gXr-ie-eFW.normalTitle" = "清除请求";
+
+/* Class = "IBUITabBarItem"; title = "应用"; ObjectID = "nzE-gf-Z51"; */
+"nzE-gf-Z51.title" = "应用";
+
+/* Class = "IBUILabel"; text = "密    码："; ObjectID = "qNk-oV-rmG"; */
+"qNk-oV-rmG.text" = "密    码：";
+
+/* Class = "IBUIButton"; normalTitle = "兑换"; ObjectID = "tIz-dF-Pr6"; */
+"tIz-dF-Pr6.normalTitle" = "兑换";
+
+/* Class = "IBUIButton"; normalTitle = "账号"; ObjectID = "tMe-pp-s0l"; */
+"tMe-pp-s0l.normalTitle" = "账号";
+
+/* Class = "IBUITabBarItem"; title = "应用程序"; ObjectID = "vpv-QT-p28"; */
+"vpv-QT-p28.title" = "应用程序";

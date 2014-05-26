@@ -1,0 +1,66 @@
+
+/* Class = "IBUINavigationItem"; title = "起凡换护符辅助"; ObjectID = "0hA-aO-Ag6"; */
+"0hA-aO-Ag6.title" = "虎符辅助";
+
+/* Class = "IBUIButton"; normalTitle = "刷新"; ObjectID = "1Ui-EG-BmU"; */
+"1Ui-EG-BmU.normalTitle" = "刷新";
+
+/* Class = "IBUITabBarItem"; title = "应用"; ObjectID = "38G-0l-pfn"; */
+"38G-0l-pfn.title" = "应用";
+
+/* Class = "IBUILabel"; text = "当前声望:"; ObjectID = "8n6-cB-22I"; */
+"8n6-cB-22I.text" = "当前声望:";
+
+/* Class = "IBUILabel"; text = "密   码:"; ObjectID = "DEY-cD-6hd"; */
+"DEY-cD-6hd.text" = "密   码:";
+
+/* Class = "IBUILabel"; text = "兑换数量:"; ObjectID = "El3-il-Jch"; */
+"El3-il-Jch.text" = "兑换数量:";
+
+/* Class = "IBUIButton"; normalTitle = "后退"; ObjectID = "IDh-CS-vJm"; */
+"IDh-CS-vJm.normalTitle" = "后退";
+
+/* Class = "IBUIButton"; normalTitle = "清除请求"; ObjectID = "Ij4-sy-Yjj"; */
+"Ij4-sy-Yjj.normalTitle" = "清除请求";
+
+/* Class = "IBUIButton"; normalTitle = "刷新"; ObjectID = "LLS-4c-f1r"; */
+"LLS-4c-f1r.normalTitle" = "刷新";
+
+/* Class = "IBUIButton"; normalTitle = "兑换"; ObjectID = "N5d-m9-nm9"; */
+"N5d-m9-nm9.normalTitle" = "兑换";
+
+/* Class = "IBUIButton"; normalTitle = "登入"; ObjectID = "NOI-C5-jPz"; */
+"NOI-C5-jPz.normalTitle" = "登入";
+
+/* Class = "IBUILabel"; text = "验证码:"; ObjectID = "Yi1-pP-dly"; */
+"Yi1-pP-dly.text" = "验证码:";
+
+/* Class = "IBUITextField"; text = "qq971972064"; ObjectID = "ZLh-Bk-ugZ"; */
+"ZLh-Bk-ugZ.text" = "qq971972064";
+
+/* Class = "IBUITextField"; text = "13979185509"; ObjectID = "dsX-bv-AIn"; */
+"dsX-bv-AIn.text" = "13979185509";
+
+/* Class = "IBUIButton"; normalTitle = "刷新Home"; ObjectID = "fGr-ft-Jx0"; */
+"fGr-ft-Jx0.normalTitle" = "刷新Home";
+
+/* Class = "IBUILabel"; text = "消耗数量:"; ObjectID = "gQR-aJ-v08"; */
+"gQR-aJ-v08.text" = "消耗数量:";
+
+/* Class = "IBUILabel"; text = "兑换等级:"; ObjectID = "hGn-NN-UXf"; */
+"hGn-NN-UXf.text" = "兑换等级:";
+
+/* Class = "IBUIButton"; normalTitle = "前进"; ObjectID = "kIf-WD-d46"; */
+"kIf-WD-d46.normalTitle" = "前进";
+
+/* Class = "IBUITabBarItem"; title = "应用"; ObjectID = "rnu-hZ-rLC"; */
+"rnu-hZ-rLC.title" = "应用";
+
+/* Class = "IBUITabBarItem"; title = "WebView"; ObjectID = "vY5-nC-YlM"; */
+"vY5-nC-YlM.title" = "WebView";
+
+/* Class = "IBUITextField"; text = "50"; ObjectID = "yvv-X2-2qb"; */
+"yvv-X2-2qb.text" = "50";
+
+/* Class = "IBUILabel"; text = "用户名:"; ObjectID = "zrK-Uz-Gjq"; */
+"zrK-Uz-Gjq.text" = "用户名:";
