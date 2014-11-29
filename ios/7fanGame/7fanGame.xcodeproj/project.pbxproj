@@ -21,7 +21,6 @@
 		961BADCE1920571E00C4D29A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 961BADAD1920571E00C4D29A /* UIKit.framework */; };
 		961BADD61920571E00C4D29A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 961BADD41920571E00C4D29A /* InfoPlist.strings */; };
 		961BADD81920571E00C4D29A /* _fanGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BADD71920571E00C4D29A /* _fanGameTests.m */; };
-		961BADE319205FC200C4D29A /* URLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BADE219205FC200C4D29A /* URLProtocol.m */; };
 		961BADE619209A8600C4D29A /* ProgrameQiFanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BADE519209A8600C4D29A /* ProgrameQiFanViewController.m */; };
 		961BADEB19209BF900C4D29A /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BADEA19209BF900C4D29A /* ASIFormDataRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		961BADEF19209C2500C4D29A /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BADED19209C2500C4D29A /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -62,7 +61,6 @@
 		962DBF0D192EF32300D32A09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BADC21920571E00C4D29A /* ViewController.m */; };
 		962DBF0E192EF32300D32A09 /* SWHFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BAE161920B35C00C4D29A /* SWHFViewController.m */; };
 		962DBF0F192EF32300D32A09 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BADFA19209DC900C4D29A /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		962DBF10192EF32300D32A09 /* URLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BADE219205FC200C4D29A /* URLProtocol.m */; };
 		962DBF11192EF32300D32A09 /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BADED19209C2500C4D29A /* ASIHTTPRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		962DBF12192EF32300D32A09 /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BAE0419209DC900C4D29A /* ASINetworkQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		962DBF13192EF32300D32A09 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 961BADFE19209DC900C4D29A /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -108,6 +106,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6E603C3E1A299A6F007039E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 961BAD9E1920571E00C4D29A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 961BADA51920571E00C4D29A;
+			remoteInfo = 7fanGame;
+		};
 		961BADCF1920571E00C4D29A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 961BAD9E1920571E00C4D29A /* Project object */;
@@ -442,6 +447,7 @@
 			);
 			dependencies = (
 				961BADD01920571E00C4D29A /* PBXTargetDependency */,
+				6E603C3F1A299A6F007039E9 /* PBXTargetDependency */,
 			);
 			name = 7fanGameTests;
 			productName = 7fanGameTests;
@@ -476,9 +482,6 @@
 				TargetAttributes = {
 					961BADA51920571E00C4D29A = {
 						DevelopmentTeam = H44B9UPP73;
-					};
-					961BADC91920571E00C4D29A = {
-						TestTargetID = 961BADA51920571E00C4D29A;
 					};
 				};
 			};
@@ -585,7 +588,6 @@
 				961BADC31920571E00C4D29A /* ViewController.m in Sources */,
 				961BAE171920B35C00C4D29A /* SWHFViewController.m in Sources */,
 				961BAE0519209DC900C4D29A /* ASIAuthenticationDialog.m in Sources */,
-				961BADE319205FC200C4D29A /* URLProtocol.m in Sources */,
 				961BADEF19209C2500C4D29A /* ASIHTTPRequest.m in Sources */,
 				961BAE0A19209DC900C4D29A /* ASINetworkQueue.m in Sources */,
 				961BAE0719209DC900C4D29A /* ASIDataDecompressor.m in Sources */,
@@ -616,7 +618,6 @@
 				962DBF0D192EF32300D32A09 /* ViewController.m in Sources */,
 				962DBF0E192EF32300D32A09 /* SWHFViewController.m in Sources */,
 				962DBF0F192EF32300D32A09 /* ASIAuthenticationDialog.m in Sources */,
-				962DBF10192EF32300D32A09 /* URLProtocol.m in Sources */,
 				962DBF11192EF32300D32A09 /* ASIHTTPRequest.m in Sources */,
 				962DBF12192EF32300D32A09 /* ASINetworkQueue.m in Sources */,
 				962DBF13192EF32300D32A09 /* ASIDataDecompressor.m in Sources */,
@@ -629,6 +630,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		6E603C3F1A299A6F007039E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 961BADA51920571E00C4D29A /* 7fanGame */;
+			targetProxy = 6E603C3E1A299A6F007039E9 /* PBXContainerItemProxy */;
+		};
 		961BADD01920571E00C4D29A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 961BADA51920571E00C4D29A /* 7fanGame */;
@@ -747,14 +753,15 @@
 		961BADDC1920571E00C4D29A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "7fanGame/7fanGame-Prefix.pch";
 				INFOPLIST_FILE = "7fanGame/7fanGame-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -762,14 +769,15 @@
 		961BADDD1920571E00C4D29A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "7fanGame/7fanGame-Prefix.pch";
 				INFOPLIST_FILE = "7fanGame/7fanGame-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -777,7 +785,7 @@
 		961BADDF1920571E00C4D29A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/7fanGame.app/7fanGame";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -791,7 +799,6 @@
 				);
 				INFOPLIST_FILE = "7fanGameTests/7fanGameTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -799,7 +806,7 @@
 		961BADE01920571E00C4D29A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/7fanGame.app/7fanGame";
+				CODE_SIGN_IDENTITY = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -809,7 +816,6 @@
 				GCC_PREFIX_HEADER = "7fanGame/7fanGame-Prefix.pch";
 				INFOPLIST_FILE = "7fanGameTests/7fanGameTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -825,6 +831,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = qifanGame;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -840,6 +847,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = qifanGame;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
